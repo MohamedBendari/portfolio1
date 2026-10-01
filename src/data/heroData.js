@@ -1,18 +1,33 @@
 export const roles = [
-  'Software Engineer',
-  'Full-Stack Web Developer',
-  'Backend Developer',
-  'API Developer',
-  'Vue.js Developer',
-]
+  "Full-Stack Web Developer",
+  "Backend Developer",
+  "Frontend Developer",
+  "Software Engineer",
+];
 
 export const techStack = [
-  { label: 'C#', dotColor: 'bg-blue-400' },
-  { label: 'Python', dotColor: 'bg-yellow-400' },
-  { label: 'Django', dotColor: 'bg-green-400' },
-  { label: 'Django REST Framework', dotColor: 'bg-emerald-400' },
-  { label: 'Vue.js', dotColor: 'bg-green-400' },
-  { label: 'JavaScript', dotColor: 'bg-yellow-400' },
-  { label: 'PostgreSQL', dotColor: 'bg-blue-400' },
-  { label: 'REST APIs', dotColor: 'bg-purple-400' },
-]
+  {
+    name: "C#",
+    icon: "csharp",
+  },
+  {
+    name: "Python",
+    icon: "python",
+  },
+  {
+    name: "JavaScript",
+    icon: "javascript",
+  },
+  {
+    name: "Vue.js",
+    icon: "vue",
+  },
+  {
+    name: "Django",
+    icon: "django",
+  },
+  {
+    name: "ASP.NET Core",
+    icon: "dotnet",
+  },
+];

@@ -27,7 +27,7 @@
     <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75" />
     <span class="relative inline-flex h-2 w-2 rounded-full bg-green-400" />
   </span>
-  Software Engineer
+  Full-Stack Web Developer
 </p>
 
         <p class="hero-fade-in hero-delay-1 text-lg text-white/70 sm:text-xl">Hi, I'm</p>
@@ -48,18 +48,14 @@
         </p>
 
         <p class="hero-fade-in hero-delay-4 mt-6 max-w-xl text-base leading-relaxed text-white/60 sm:text-lg">
-          I build responsive and scalable web applications using
-<strong class="font-semibold text-white/80">modern frontend</strong>
-and
-<strong class="font-semibold text-white/80">backend technologies</strong>,
-with a focus on
-<strong class="font-semibold text-white/80">REST APIs</strong>,
-database design, and reliable software solutions.
-        </p>
+  I’m a Full-Stack Web Developer and Software Engineering graduate
+  focused on building responsive, database-driven web applications
+  using modern frontend and backend technologies.
+</p>
 
         <ul class="hero-fade-in hero-delay-5 mt-8 flex flex-wrap gap-2" aria-label="Technology stack">
-          <li v-for="tech in techStack" :key="tech.label">
-            <TechBadge :label="tech.label" :dot-color="tech.dotColor" />
+          <li v-for="tech in techStack" :key="tech.name">
+            <TechBadge :label="tech.name" />
           </li>
         </ul>
 
@@ -71,7 +67,7 @@ database design, and reliable software solutions.
             </template>
           </BaseButton>
 
-          <BaseButton tag="a" href="/resume-ahsan-ali.pdf" download variant="secondary">
+          <BaseButton tag="a" href="/Mohamed_Bendary_Saber_CV.pdf" download variant="secondary">
             <template #icon-left>
               <Download :size="18" />
             </template>

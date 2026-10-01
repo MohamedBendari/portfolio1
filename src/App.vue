@@ -2,13 +2,14 @@
 import Navbar from "@/components/layout/Navbar.vue"
 
 import HeroSection from "@/sections/Hero/HeroSection.vue"
-import TechStackSection from "@/sections/TechStack/TechStackSection.vue"
+// import TechStackSection from "@/sections/TechStack/TechStackSection.vue"
 import AboutSection from "@/sections/About/AboutSection.vue"
 import ServicesSection from "@/sections/Services/ServicesSection.vue"
 import ProjectsSection from "@/sections/Projects/ProjectsSection.vue"
 import ExperienceSection from "@/sections/Experiences/ExperienceSection.vue"
 import ContactSection from "@/sections/Contact/ContactSection.vue"
 import FooterSection from "@/sections/Footer/FooterSection.vue"
+import SkillsSection from "@/sections/Skills/SkillsSection.vue"
 </script>
 
 <template>
@@ -19,13 +20,16 @@ import FooterSection from "@/sections/Footer/FooterSection.vue"
     <HeroSection />
 
     <!-- Tech Stack -->
-    <TechStackSection />
+    <!-- <TechStackSection /> -->
 
     <!-- About -->
     <AboutSection />
     
     <!-- Services -->
     <ServicesSection />
+
+    <!-- Skills -->
+    <SkillsSection />
 
     <!-- Projects -->
     <ProjectsSection />
@@ -39,5 +43,6 @@ import FooterSection from "@/sections/Footer/FooterSection.vue"
 
     <!-- Footer -->
     <FooterSection />
+    
   </main>
 </template>
